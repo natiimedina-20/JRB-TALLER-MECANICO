@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Detalle de Producto | PharmaNova</title>
+    <link rel="icon" type="image/png" href="../assets/icono.png">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="stylesheet" href="../assets/css/tarjetas.css">
+    <script type="module" src="./detalle.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header-img">
+                <img src="../assets/icono.png" alt="iconoFarmacia" width="150" height="150">
+            </div>
+
+            <nav class="nav">
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="./producto.html">Productos</a></li>
+                </ul>
+                <span class="spacer"></span>
+
+                <div class="botonCarrito">
+                    <button type="button" id="abrir-carrito">
+                        <img src="../assets/carrito.svg" alt="boton de carrito" class="carrito">
+                    </button>
+                </div>
+
+                <!-- Dropdown del carrito -->
+                <div id="dropdown-carrito"
+                    style="display:none; position: absolute; top: 50px; right: 0; width: 300px; border: 1px solid #ccc; background: #fff; padding: 10px; z-index: 1000;">
+                    <h3>Carrito</h3>
+                    <ul id="lista-carrito"></ul>
+                    <p id="total-carrito"><strong>Total:</strong> $0</p>
+                    <button id="cerrar-carrito">Cerrar</button>
+                </div>
+
+
+                <div class="botonCarrito">
+                    <button type="button">
+                        <img src="../assets/carrito.svg" alt="boton de carrito" class="carrito">
+                    </button>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main default-background-color">
+            <section id="detalle-producto"></section>
+        </main>
+
+        <footer class="footer default-background-color">
+            <p>&copy; 2025 PharmaNova</p>
+        </footer>
+    </div>
+</body>
+
+</html>

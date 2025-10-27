@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    height: 100vh;
+
+}
+
+
+/* ---------- NAV / BOTONES ---------- */
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 0 12px;
+    background-color: rgb(8, 8, 63);
+    justify-content: center;
+    align-items: center;
+}
+
+/* quitar bullets / márgenes del UL dentro del nav */
+.nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+/* estilo para los "botones" (enlaces dentro del li) */
+.nav ul li a {
+    display: inline-block;
+    /* necesario para transform/scale */
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+    /* texto negro */
+    background-color: white;
+    /* fondo blanco */
+    border: 2px solid black;
+    /* borde negro */
+    border-radius: 30px;
+    /* bordes redondeados */
+    font-weight: 700;
+    transition: transform 0.22s ease,
+        /* suaviza el scale */
+        background-color 0.22s ease,
+        color 0.22s ease,
+        box-shadow 0.22s ease;
+    transform-origin: center;
+    box-shadow: none;
+}
+
+/* hover: agranda, invierte colores y añade sombra */
+.nav ul li a:hover,
+.nav ul li a:focus {
+    transform: scale(1.08);
+    /* agranda ~8% */
+    background-color: black;
+    /* fondo negro al hover */
+    color: white;
+    /* texto blanco */
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.18);
+}
+
+/* Si tenés alguna regla que cambie el tamaño del font en pantallas pequeñas: */
+@media (max-width: 520px) {
+    .nav ul li a {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+
+}
+
+p {
+    max-width: 800px;
+    margin: 10px auto;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+#productos {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    /* espacio entre productos */
+    text-align: center;
+}
+
+
+#hero {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black background-image ('../marcas.jpg');
+    background-image: url('../marcas.jpg');
+    /* sube un nivel desde css/ */
+    background-size: auto;
+    background-position: center;
+    font-size: 30px;
+
+}
+
+
+
+.footer {
+    display: grid;
+    padding-top: 3%;
+    height: 100%;
+    flex: 1;
+}
+
+
+
+.header-img {
+    display: flex;
+    justify-content: center;
+
+}
+
+.producto-p {
+    background-color: rgb(202, 247, 177);
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.producto-ultimo {
+    margin-top: 3%;
+    margin-bottom: 0;
+}
+
+.producto[data-id="101"] {
+    margin-top: 3%;
+}
+
+
+
+.default-background-color {
+    background-color: rgb(167, 165, 165);
+    background: linear-gradient(to right, #91b3d1, #6f777e);
+}
+
+.filtro {
+    padding-top: 5px;
+}
+
+#destacados {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    /* 2 columnas */
+    gap: 20px;
+    /* espacio entre las tarjetas */
+    padding: 20px;
+    justify-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.infobienvenida {
+    display: flex;
+    justify-content: center;
+    /* Centra horizontalmente */
+    align-items: center;
+    /* Centra verticalmente */
+    min-height: 100vh;
+    /* Ocupa toda la altura de la ventana */
+    padding: 20px;
+    text-align: justify;
+    /* Justifica el texto dentro del bloque */
+}

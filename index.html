@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Inicio | Taller Mecánico JRB</title>
+    <link rel="icon" type="image/png" href="assets/icono.png">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- HEADER -->
+        <header class="header">
+            <div class="header-img">
+                <img src="assets/icono.png" alt="iconoTaller" class="iconoEnPagina" width="150" height="100">
+            </div>
+
+            <nav class="nav">
+                <ul>
+                    <li><a href="./index.html">Inicio</a></li>
+                    <li><a href="./pages/producto.html">Productos</a></li>
+                    <li><a href="./pages/contacto.html">Contacto</a></li>
+                </ul>
+                <span class="spacer"></span>
+            </nav>
+        </header>
+
+        <!-- MAIN -->
+        <main class="main default-background-color">
+            <section id="hero">
+                <h1><strong>TALLER MECÁNICO JRB</strong></h1>
+                <h2><strong>Conocé un poco sobre nosotros!</strong></h2>
+            </section>
+
+    
+
+            <section id="info-bienvenida">
+                <p>
+                    Somos Juan Ramón Barañao y equipo, tu taller mecánico de confianza.
+                    Con años de experiencia en el rubro automotor, nos especializamos en mantenimiento, reparación y
+                    diagnóstico integral de vehículos.
+                    Además, Juan Pedro trabaja con camiones y vehículos pesados, asegurando un servicio completo para
+                    todo tipo de transporte.
+                    Ofrecemos un servicio transparente, rápido y profesional, porque sabemos lo importante que es tu
+                    vehículo para vos.
+                    En nuestro taller cada detalle cuenta — trabajamos con compromiso, honestidad y calidad garantizada.
+                </p>
+            </section>
+
+            <!-- Productos destacados -->
+            <section id="destacados" class="default-background-color">
+               
+                <div class="galeria"></div> <!-- 👈 Este div se llena desde JS -->
+            </section>
+        </main>
+
+        <!-- FOOTER -->
+        <footer class="footer default-background-color">
+            <p>&copy; Taller Mecánico JRB</p>
+        </footer>
+    </div>
+
+    <!-- JS -->
+    <script type="module" src="./pages/galeria.js"></script>
+    <script type="module" src="./pages/index.js"></script>
+</body>
+</html>

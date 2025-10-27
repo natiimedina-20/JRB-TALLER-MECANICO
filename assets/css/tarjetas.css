@@ -1,0 +1,100 @@
+.tarjeta {
+    width: 400px;
+    height: 450px;
+    background-color: rgb(177, 177, 226);
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.tarjeta .tarjeta-imagen {
+    width: 150px;
+    height: 150px;
+}
+
+.tarjeta .tarjeta-precio {
+    display: inline-block;
+    padding: 6px 10px;
+    border: 2px solid #5ba33a;
+    background: #ffffff;
+    color: #111;
+    border-radius: 8px;
+    font-weight: 700;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06);
+}
+
+.tarjeta .tarjeta-stock {
+    color: green;
+    display: block;
+    margin-top: 6px;
+    width: 100%;
+    font-weight: bolder;
+}
+
+.tarjeta .tarjeta-acciones {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.tarjeta .tarjeta-acciones button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.tarjeta .tarjeta-acciones button:hover {
+    background: #5ba33a;
+    color: #fff;
+}
+
+/* Modal */
+.modal.hidden {
+    display: none;
+}
+
+.modal {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+}
+
+.modal-contenido {
+    background: #fff;
+    width: 90%;
+    max-width: 700px;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: left;
+    position: relative;
+}
+
+.modal-cerrar {
+    position: absolute;
+    right: 12px;
+    top: 8px;
+    background: transparent;
+    border: none;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.modal-imagen {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.modal-meta {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin-top: 8px;
+}

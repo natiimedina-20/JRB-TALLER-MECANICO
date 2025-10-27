@@ -1,0 +1,137 @@
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  padding: 40px;
+  background-color: #c9c5f1;
+}
+
+
+/* TARJETAS */
+.tarjeta {
+    width: 100%; /* ocupa el ancho asignado por el grid */
+    max-width: 350px; /* límite máximo */
+    background-color: rgb(177, 177, 226);
+    padding: 20px;
+    border-radius: 20px; /* bordes más suaves */
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* sombra suave */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* efecto al pasar el mouse */
+.tarjeta:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.25);
+}
+
+/* IMAGEN DE LA TARJETA */
+.tarjeta .tarjeta-imagen {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* PRECIO */
+.tarjeta .tarjeta-precio {
+    display: inline-block;
+    padding: 6px 10px;
+    border: 2px solid #5ba33a;
+    background: #ffffff;
+    color: #111;
+    border-radius: 8px;
+    font-weight: 700;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06);
+    margin-bottom: 10px;
+}
+
+/* STOCK */
+.tarjeta .tarjeta-stock {
+    color: green;
+    display: block;
+    margin-top: 6px;
+    font-weight: bolder;
+}
+
+/* BOTONES DE ACCIÓN */
+.tarjeta .tarjeta-acciones {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.tarjeta .tarjeta-acciones button {
+    padding: 8px 14px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #5ba33a;
+    color: #fff;
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.tarjeta .tarjeta-acciones button:hover {
+    background: #4b8e2f;
+    transform: scale(1.05);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #b7c6db;
+  min-height: 100vh; /* asegura que llene la pantalla */
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1; /* ocupa el espacio disponible */
+  padding: 20px;
+}
+
+section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+/* Tarjetas */
+
+
+.tarjeta {
+  width: 250px;
+  height: auto; /* importante para adaptarse */
+  background-color: #d3ccf8;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.tarjeta:hover {
+  transform: translateY(-5px);
+}
+
+img {
+  max-width: 100%;
+  border-radius: 15px;
+}
+
+.footer p {
+    text-align: center;
+    font-size: 30px;
+    color: #666;
+    
+}
+
+#info-bienvenida p {
+    font-size: 25px;
+    justify-content: center;
+    text-align: justify;
+}
