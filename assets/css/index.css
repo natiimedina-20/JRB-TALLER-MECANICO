@@ -4,7 +4,7 @@
   justify-content: center;
   gap: 25px;
   padding: 40px;
-  background-color: #c9c5f1;
+  background-color: #4f41eb;
 }
 
 
@@ -12,7 +12,7 @@
 .tarjeta {
     width: 100%; /* ocupa el ancho asignado por el grid */
     max-width: 350px; /* límite máximo */
-    background-color: rgb(177, 177, 226);
+    background-color: rgb(83, 83, 172);
     padding: 20px;
     border-radius: 20px; /* bordes más suaves */
     text-align: center;
@@ -39,7 +39,7 @@
 .tarjeta .tarjeta-precio {
     display: inline-block;
     padding: 6px 10px;
-    border: 2px solid #5ba33a;
+    border: 2px solid #40423f;
     background: #ffffff;
     color: #111;
     border-radius: 8px;
@@ -50,7 +50,7 @@
 
 /* STOCK */
 .tarjeta .tarjeta-stock {
-    color: green;
+    color: rgb(26, 24, 24);
     display: block;
     margin-top: 6px;
     font-weight: bolder;
@@ -88,6 +88,7 @@ body {
   min-height: 100vh; /* asegura que llene la pantalla */
   display: flex;
   flex-direction: column;
+ 
 }
 
 main {
@@ -134,4 +135,13 @@ img {
     font-size: 25px;
     justify-content: center;
     text-align: justify;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+/* Declaración de la fuente */
+@font-face {
+    font-family: 'Fjalla One';
+    src: url('../assets/fonts/FjallaOne-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }

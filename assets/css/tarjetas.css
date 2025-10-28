@@ -1,7 +1,7 @@
 .tarjeta {
     width: 400px;
     height: 450px;
-    background-color: rgb(177, 177, 226);
+    background-color: rgb(109, 109, 236);
     padding: 40px;
     border-radius: 10px;
     text-align: center;
@@ -15,7 +15,7 @@
 .tarjeta .tarjeta-precio {
     display: inline-block;
     padding: 6px 10px;
-    border: 2px solid #5ba33a;
+    border: 2px solid #3c3c64;
     background: #ffffff;
     color: #111;
     border-radius: 8px;
@@ -24,7 +24,7 @@
 }
 
 .tarjeta .tarjeta-stock {
-    color: green;
+    color: rgb(0, 0, 0);
     display: block;
     margin-top: 6px;
     width: 100%;
@@ -46,7 +46,7 @@
 }
 
 .tarjeta .tarjeta-acciones button:hover {
-    background: #5ba33a;
+    background: #1b647a;
     color: #fff;
 }
 
