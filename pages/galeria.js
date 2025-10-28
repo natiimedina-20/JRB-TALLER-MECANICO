@@ -6,7 +6,29 @@ const imagenesIndex = [
   { id: 5, nombre: "", image: "./assets/5.jpg" },
   { id: 6, nombre: "", image: "./assets/6.jpg" },
   { id: 7, nombre: "", image: "./assets/7.jpg" },
-  { id: 8, nombre: "", image: "./assets/8.jpg" }
+  { id: 8, nombre: "", image: "./assets/8.jpg" },
+  { id: 9, nombre: "", image: "./assets/9.jpg" },
+  { id: 10, nombre: "", image: "./assets/10.jpg" },
+  { id: 11, nombre: "", image: "./assets/11.jpg" },
+  { id: 12, nombre: "", image: "./assets/12.jpg" },
+  { id: 13, nombre: "", image: "./assets/13.jpg" },
+  { id: 14, nombre: "", image: "./assets/14.jpg" },
+  { id: 15, nombre: "", image: "./assets/15.jpg" },
+  { id: 16, nombre: "", image: "./assets/16.jpg" },
+  { id: 17, nombre: "", image: "./assets/17.jpg" },
+  { id: 18, nombre: "", image: "./assets/18.jpg" },
+  { id: 19, nombre: "", image: "./assets/19.jpg" },
+  { id: 20, nombre: "", image: "./assets/20.jpg" },
+  { id: 21, nombre: "", image: "./assets/21.jpg" },
+  { id: 22, nombre: "", image: "./assets/22.jpg" },
+  { id: 23, nombre: "", image: "./assets/23.jpg" },
+  { id: 24, nombre: "", image: "./assets/24.jpg" },
+  { id: 25, nombre: "", image: "./assets/25.jpg" },
+  { id: 26, nombre: "", image: "./assets/26.jpg" },
+  { id: 27, nombre: "", image: "./assets/27.jpg" },
+  { id: 28, nombre: "", image: "./assets/28.jpg" },
+  { id: 29, nombre: "", image: "./assets/29.jpg" },
 ];
+
 
 export default imagenesIndex;
