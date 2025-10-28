@@ -29,8 +29,9 @@
 
 #telefonos p {
     font-size: 24px;
-    text-align: center;
-    font-weight: bold;
+     font-weight: bold;
+    text-align: justify;
+    padding-bottom: 59px;
 }
 
 .footer p {
