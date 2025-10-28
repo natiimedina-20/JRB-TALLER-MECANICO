@@ -27,10 +27,7 @@ function renderProductos(lista) {
         <span class="tarjeta-precio">$${producto.precio}</span>
         <span class="tarjeta-stock">Stock: ${producto.cantidad}</span>
       </div>
-      <div class="tarjeta-acciones">
-        <button type="button" class="btn-detalle" data-id="${producto.id}">Ver detalles</button>
-        <button type="button" class="btn-agregar" data-id="${producto.id}">Agregar</button>
-      </div>
+     
     `;
 
     contenedor.appendChild(card);

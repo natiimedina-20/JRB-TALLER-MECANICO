@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../assets/css/styles.css">
     <link rel="stylesheet" href="../assets/css/tarjetas.css">
     <link rel="stylesheet" href="../assets/css/carrito.css">
+    
 </head>
 
 <body>
@@ -25,22 +26,7 @@
                     <li><a href="./contacto.html">Contacto</a></li>
                 </ul>
                 <span class="spacer"></span>
-
-                <!-- Botón carrito -->
-                <div class="botonCarrito">
-                    <button type="button" id="abrir-carrito">
-                        <img src="../assets/carrito.svg" alt="boton de carrito" class="carrito">
-                    </button>
-                </div>
-
-                <!-- Dropdown carrito -->
-                <div id="dropdown-carrito"
-                    style="display:none; position:absolute; top:60px; right:10px; border:1px solid #ccc; background:#fff; padding:10px; width:300px; z-index:1000;">
-                    <h3>Carrito</h3>
-                    <ul id="lista-carrito"></ul>
-                    <p id="total-carrito"><strong>Total:</strong> $0</p>
-                    <button id="cerrar-carrito">Cerrar</button>
-                </div>
+               
             </nav>
         </header>
 
@@ -59,7 +45,8 @@
 
     <!-- Scripts al final del body -->
     <script type="module" src="./productos.js"></script>
-    <script type="module" src="./carrito2.js"></script>
+    
+   
 
 </body>
 
