@@ -6,7 +6,8 @@
     display: flex;            /* activa flexbox */
     justify-content: center;  /* centra los botones horizontalmente */
     align-items: center;      /* los alinea verticalmente */
-    gap: 30px;                /* espacio entre los botones */
+    gap: 30px;   
+    font-family: 'Fjalla One', sans-serif;             /* espacio entre los botones */
 }
 
 .nav ul li a {

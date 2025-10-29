@@ -1,12 +1,14 @@
 .tarjeta {
     width: 400px;
-    height: 450px;
-    background-color: rgb(216, 215, 215);
-    padding: 40px;
+    height: 400px;
+    background-color: rgb(162, 162, 184);
     border-radius: 10px;
     text-align: center;
+    padding: 20px;
     
 }
+
+
 
 #productos{
     justify-content: center;
@@ -20,7 +22,7 @@
 .tarjeta .tarjeta-precio {
     display: inline-block;
     padding: 6px 10px;
-    border: 2px solid #34345e;
+    border: 2px solid #10103a;
     background: #ffffff;
     color: #111;
     border-radius: 8px;
@@ -102,4 +104,11 @@
     gap: 12px;
     align-items: center;
     margin-top: 8px;
+}
+
+.footer p {
+    text-align: center;
+    font-size: 30px;
+    color: #666;
+    
 }

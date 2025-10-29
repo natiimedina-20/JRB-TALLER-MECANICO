@@ -7,6 +7,7 @@
     display: grid;
     grid-template-rows: auto 1fr auto;
     height: 100vh;
+    font-family: 'Fjalla One', sans-serif;
 
 }
 
@@ -143,7 +144,7 @@ p {
 
 
 .default-background-color {
-    background-color: rgb(187, 185, 185);
+    background-color: grey;
     background: linear-gradient(to right, #91b3d1, #6f777e);
 }
 
