@@ -464,15 +464,622 @@ const productos = [
   },
 
   {
-  id: 46,
-  nombre: "Aceite de Motor Favorit 7510 15W50",
-  nombreOficial: "Favorit 7510 15W50",
-  descripcion: "Aceite mineral de alto rendimiento para motores a gasolina y diésel.",
-  precio: 8700,
-  cantidad: 40,
-  categoria: "Lubricantes",
-  image: "../assets/favorit_7510_15w50.jpg"
-}
+    id: 46,
+    nombre: "Aceite de Motor Favorit 7510 15W50",
+    nombreOficial: "Favorit 7510 15W50",
+    descripcion: "Aceite mineral de alto rendimiento para motores a gasolina y diésel.",
+    precio: 8700,
+    cantidad: 40,
+    categoria: "Lubricantes",
+    image: "../assets/favorit_7510_15w50.jpg"
+  },
+
+  {
+    id: 47,
+    nombre: "KIT WEGA CHEVROLET CORSA, CLASSIC, AGILE (4 F)",
+    nombreOficial: "KIT WEGA 274",
+    descripcion: "Kit de filtros WEGA para Chevrolet Corsa, Classic, Agile, incluye todos los filtros indicados.",
+    precio: 20664.27,
+    cantidad: 10,
+    categoria: "Filtros",
+    image: "../assets/kitwegaAGILE4f.jpg"
+  },
+  {
+    id: 48,
+    nombre: "KIT WEGA CHEVROLET CRUZE 1.4 (3 F)",
+    nombreOficial: "KIT WEGA 395",
+    descripcion: "Kit de filtros WEGA para Chevrolet Cruze 1.4, incluye todos los filtros indicados.",
+    precio: 27395,
+    cantidad: 10,
+    categoria: "Filtros",
+    image: "../assets/wega_395.jpg"
+  },
+  {
+    id: 49,
+    nombre: "KIT WEGA CHEVROLET CRUZE 1.8 (3 F)",
+    nombreOficial: "KIT WEGA V251",
+    descripcion: "Kit de filtros WEGA para Chevrolet Cruze 1.8, incluye todos los filtros indicados.",
+    precio: 32150.27,
+    cantidad: 10,
+    categoria: "Filtros",
+    image: "../assets/wega_V251.jpg"
+  },
+  {
+    id: 50,
+    nombre: "KIT WEGA CHEVROLET PRISMA, ONIX 1.4 (3 F)",
+    nombreOficial: "KIT WEGA V252",
+    descripcion: "Kit de filtros WEGA para Chevrolet Prisma, Onix 1.4, incluye todos los filtros indicados.",
+    precio: 26287.79,
+    cantidad: 10,
+    categoria: "Filtros",
+    image: "../assets/wega_V252.jpg"
+  },
+  {
+    id: 51,
+    nombre: "KIT WEGA CHEVROLET S10 (L-VIEJA 2006> ELECT) (3 F)",
+    nombreOficial: "KIT WEGA 35388",
+    descripcion: "Kit de filtros WEGA para Chevrolet S10 (L-Vieja 2006>), incluye todos los filtros indicados.",
+    precio: 26084.35,
+    cantidad: 10,
+    categoria: "Filtros",
+    image: "../assets/wega_35388.jpg"
+  },
+
+  {
+    id: 52,
+    nombre: "KIT WEGA CHEVROLET S10 L. NUEVA (4 F)",
+    nombreOficial: "KIT WEGA V218",
+    descripcion: "Kit de filtros WEGA para Chevrolet S10 L. Nueva, incluye todos los filtros indicados.",
+    precio: 70798.85,
+    cantidad: 10,
+    categoria: "Filtros",
+    image: "../assets/kitwega_chevs10.jpg"
+  },
+  {
+    id: 53,
+    nombre: "KIT WEGA CHEVROLET TRACKER 1.2T, ONIX 1.2 (3 F)",
+    nombreOficial: "KIT WEGA V2",
+    descripcion: "Kit de filtros WEGA para Chevrolet Tracker 1.2T, Onix 1.2, incluye todos los filtros indicados.",
+    precio: 54531.68,
+    cantidad: 10,
+    categoria: "Filtros",
+    image: "../assets/kitwega_tracker12.jpg"
+  },
+  {
+    id: 54,
+    nombre: "KIT WEGA CHEVROLET TRACKER 1.8 (3 F)",
+    nombreOficial: "KIT WEGA V253",
+    descripcion: "Kit de filtros WEGA para Chevrolet Tracker 1.8, incluye todos los filtros indicados.",
+    precio: 24011,
+    cantidad: 10,
+    categoria: "Filtros",
+    image: "../assets/kitwega_tracker18.jpg"
+  },
+  {
+    id: 55,
+    nombre: "KIT WEGA FIAT ARGO / CRONOS 1.8 (4 F)",
+    nombreOficial: "KIT WEGA 77412",
+    descripcion: "Kit de filtros WEGA para Fiat Argo / Cronos 1.8, incluye todos los filtros indicados.",
+    precio: 22360.77,
+    cantidad: 10,
+    categoria: "Filtros",
+    image: "../assets/kitwega_argo_cronos.jpg"
+  },
+  {
+    id: 56,
+    nombre: "KIT WEGA FIAT CRONOS 1.3, ARGO 1.3 (4 F)",
+    nombreOficial: "KIT WEGA V254",
+    descripcion: "Kit de filtros WEGA para Fiat Cronos 1.3, Argo 1.3, incluye todos los filtros indicados.",
+    precio: 32726.46,
+    cantidad: 10,
+    categoria: "Filtros",
+    image: "../assets/kitwega_cronos_argo.jpg"
+  },
+  {
+    id: 57,
+    nombre: "KIT WEGA FIAT MOBI FIREFLY 1.0 77CV (4 F)",
+    nombreOficial: "KIT WEGA V284",
+    descripcion: "Kit de filtros WEGA para Fiat Mobi Firefly 1.0 77CV, incluye todos los filtros indicados.",
+    precio: 31831.06,
+    cantidad: 10,
+    categoria: "Filtros",
+    image: "../assets/kitwega_mobi.jpg"
+  },
+  {
+    id: 58,
+    nombre: "KIT WEGA FIAT PALIO 1.3, SIENA 1.4 FIRE (4 F)",
+    nombreOficial: "KIT WEGA V255",
+    descripcion: "Kit de filtros WEGA para Fiat Palio 1.3, Siena 1.4 Fire, incluye todos los filtros indicados.",
+    precio: 28488.2,
+    cantidad: 10,
+    categoria: "Filtros",
+    image: "../assets/kitwega_palio_siena.jpg"
+  },
+  {
+    id: 59,
+    nombre: "KIT WEGA FIAT PALIO III, SIENA, STRADA 1.6 E-TORQ (4 F)",
+    nombreOficial: "KIT WEGA V276",
+    descripcion: "Kit de filtros WEGA para Fiat Palio III, Siena, Strada 1.6 E-Torq, incluye todos los filtros indicados.",
+    precio: 23778.51,
+    cantidad: 10,
+    categoria: "Filtros",
+    image: "../assets/kitwega_palio3_siena_strada.jpg"
+  },
+  {
+    id: 60,
+    nombre: "KIT WEGA FIAT TORO DIESEL 2.0, RENEGADE DIESEL (4 F)",
+    nombreOficial: "KIT WEGA V256",
+    descripcion: "Kit de filtros WEGA para Fiat Toro Diesel 2.0, Renegade Diesel, incluye todos los filtros indicados.",
+    precio: 30744.31,
+    cantidad: 10,
+    categoria: "Filtros",
+    image: "../assets/kitwega_toro_renegade.jpg"
+  },
+  {
+    id: 61,
+    nombre: "KIT WEGA FIAT TORO, JEEP RENEGADE 1.8 (4 F)",
+    nombreOficial: "KIT WEGA V244",
+    descripcion: "Kit de filtros WEGA para Fiat Toro, Jeep Renegade 1.8, incluye todos los filtros indicados.",
+    precio: 58225.82,
+    cantidad: 10,
+    categoria: "Filtros",
+    image: "../assets/kitwega_toro_renegade18.jpg"
+  },
+  {
+    id: 62,
+    nombre: "KIT WEGA FIAT UNO WAY, MOBI, PALIO II 1.4 (3 F)",
+    nombreOficial: "KIT WEGA V277",
+    descripcion: "Kit de filtros WEGA para Fiat Uno Way, Mobi, Palio II 1.4, incluye todos los filtros indicados.",
+    precio: 34425.57,
+    cantidad: 10,
+    categoria: "Filtros",
+    image: "../assets/kitwega_uno_mobi_palio.jpg"
+  },
+  {
+    id: 63,
+    nombre: "KIT WEGA FORD ECOSPORT, FIESTA 1.6 ZETEC ROCAM (4 F)",
+    nombreOficial: "KIT WEGA V278",
+    descripcion: "Kit de filtros WEGA para Ford Ecosport, Fiesta 1.6 Zetec Rocam, incluye todos los filtros indicados.",
+    precio: 27103.23,
+    cantidad: 10,
+    categoria: "Filtros",
+    image: "../assets/kitwega_ford_ecosport.jpg"
+  },
+  {
+    id: 64,
+    nombre: "KIT WEGA FORD FIESTA KINETIC, KA, ECOSPORT 1.6 (4 F)",
+    nombreOficial: "KIT WEGA V241",
+    descripcion: "Kit de filtros WEGA para Ford Fiesta Kinetic, KA, Ecosport 1.6, incluye todos los filtros indicados.",
+    precio: 28139.02,
+    cantidad: 10,
+    categoria: "Filtros",
+    image: "../assets/kitwega_ford_fiesta.jpg"
+  },
+  {
+    id: 65,
+    nombre: "KIT WEGA FORD FOCUS II & III KINETIC 1.6-2.0 (4 F)",
+    nombreOficial: "KIT WEGA V243",
+    descripcion: "Kit de filtros WEGA para Ford Focus II & III Kinetic 1.6-2.0, incluye todos los filtros indicados.",
+    precio: 30512.7,
+    cantidad: 10,
+    categoria: "Filtros",
+    image: "../assets/kitwega_ford_focus.jpg"
+  },
+  {
+    id: 66,
+    nombre: "KIT WEGA FORD KA FREESTYLE, ECOSPORT 1.5 KINETIC",
+    nombreOficial: "KIT WEGA V242",
+    descripcion: "Kit de filtros WEGA para Ford KA Freestyle, Ecosport 1.5 Kinetic, incluye todos los filtros indicados.",
+    precio: 38806.33,
+    cantidad: 10,
+    categoria: "Filtros",
+    image: "../assets/kitwega_ford_ka.jpg"
+  },
+  {
+    id: 67,
+    nombre: "KIT WEGA FORD RANGER 2.2-3.2 CC (4 F)",
+    nombreOficial: "KIT WEGA V3031",
+    descripcion: "Kit de filtros WEGA para Ford Ranger 2.2-3.2 CC, incluye todos los filtros indicados.",
+    precio: 45600.62,
+    cantidad: 10,
+    categoria: "Filtros",
+    image: "../assets/kitwega_ford_ranger22.jpg"
+  },
+  {
+    id: 68,
+    nombre: "KIT WEGA FORD RANGER 3.0 (3 F) (F. A. CARTUCHO)",
+    nombreOficial: "KIT WEGA V308",
+    descripcion: "Kit de filtros WEGA para Ford Ranger 3.0 (3 F), incluye todos los filtros indicados.",
+    precio: 52493.48,
+    cantidad: 10,
+    categoria: "Filtros",
+    image: "../assets/kitwega_ford_ranger30.jpg"
+  },
+  {
+    id: 69,
+    nombre: "KIT WEGA FORD RANGER 3.2 DURATORQ 2021 (4F)",
+    nombreOficial: "KIT WEGA V323",
+    descripcion: "Kit de filtros WEGA para Ford Ranger 3.2 Duratorq 2021, incluye todos los filtros indicados.",
+    precio: 84706.6,
+    cantidad: 10,
+    categoria: "Filtros",
+    image: "../assets/kitwega_ford_ranger32.jpg"
+  },
+  {
+    id: 70,
+    nombre: "KIT WEGA HONDA FIT 1.5 NEW 2008 (3 F)",
+    nombreOficial: "KIT WEGA V279",
+    descripcion: "Kit de filtros WEGA para Honda Fit 1.5 New 2008, incluye todos los filtros indicados.",
+    precio: 25730.49,
+    cantidad: 10,
+    categoria: "Filtros",
+    image: "../assets/kitwega_honda_fit.jpg"
+  },
+
+  {
+    id: 71,
+    nombre: "KIT WEGA HONDA HRV (3 F)",
+    nombreOficial: "KIT WEGA V294",
+    descripcion: "Kit de filtros WEGA para Honda HRV, incluye todos los filtros indicados.",
+    precio: 27806.99,
+    cantidad: 10,
+    categoria: "Filtros",
+    image: "../assets/kitwega_honda_hrv.jpg"
+  },
+  {
+    id: 72,
+    nombre: "KIT WEGA HONDA TORNADO 250 (F. ACEITE,AIRE,BUJIA, LAMP.)",
+    nombreOficial: "KIT WEGA V285",
+    descripcion: "Kit de filtros WEGA para Honda Tornado 250, incluye todos los filtros indicados.",
+    precio: 10947.69,
+    cantidad: 10,
+    categoria: "Filtros",
+    image: "../assets/kitwega_honda_tornado250.jpg"
+  },
+  {
+    id: 73,
+    nombre: "KIT WEGA IVECO DAILY 55C16 (5F)",
+    nombreOficial: "KIT WEGA V324",
+    descripcion: "Kit de filtros WEGA para Iveco Daily 55C16, incluye todos los filtros indicados.",
+    precio: 84706.6,
+    cantidad: 10,
+    categoria: "Filtros",
+    image: "../assets/kitwega_iveco_daily55.jpg"
+  },
+  {
+    id: 74,
+    nombre: "KIT WEGA IVECO TECTOR (4F)",
+    nombreOficial: "KIT WEGA 400",
+    descripcion: "Kit de filtros WEGA para Iveco Tector, incluye todos los filtros indicados.",
+    precio: 65437.55,
+    cantidad: 10,
+    categoria: "Filtros",
+    image: "../assets/kitwega_iveco_tector.jpg"
+  },
+  {
+    id: 75,
+    nombre: "KIT WEGA M. BENZ SPRINTER 411/415/515 CDI 2012 (4 F)",
+    nombreOficial: "KIT WEGA V264",
+    descripcion: "Kit de filtros WEGA para M. Benz Sprinter 411/415/515 CDI 2012, incluye todos los filtros indicados.",
+    precio: 116797.67,
+    cantidad: 10,
+    categoria: "Filtros",
+    image: "../assets/kitwega_mercedes_sprinter.jpg"
+  },
+  {
+    id: 76,
+    nombre: "KIT WEGA M. BENZ VITO (4F)",
+    nombreOficial: "KIT WEGA V306",
+    descripcion: "Kit de filtros WEGA para M. Benz Vito, incluye todos los filtros indicados.",
+    precio: 76459.47,
+    cantidad: 10,
+    categoria: "Filtros",
+    image: "../assets/kitwega_mercedes_vito.jpg"
+  },
+  {
+    id: 77,
+    nombre: "KIT WEGA NISSAN FRONTIER NP300 2.3 DCI 190 CV 2015",
+    nombreOficial: "KIT WEGA V280",
+    descripcion: "Kit de filtros WEGA para Nissan Frontier NP300 2.3 DCI 190 CV 2015, incluye todos los filtros indicados.",
+    precio: 59832.63,
+    cantidad: 10,
+    categoria: "Filtros",
+    image: "../assets/kitwega_nissan_frontier.jpg"
+  },
+  {
+    id: 78,
+    nombre: "KIT WEGA NISSAN KICKS 1.6 VERSA 1.6 (3F)",
+    nombreOficial: "KIT WEGA V301",
+    descripcion: "Kit de filtros WEGA para Nissan Kicks 1.6, Versa 1.6, incluye todos los filtros indicados.",
+    precio: 28590.34,
+    cantidad: 10,
+    categoria: "Filtros",
+    image: "../assets/kitwega_nissan_kicks.jpg"
+  },
+  {
+    id: 79,
+    nombre: "KIT WEGA NISSAN MARCH 1.6 (3 F)",
+    nombreOficial: "KIT WEGA V302",
+    descripcion: "Kit de filtros WEGA para Nissan March 1.6, incluye todos los filtros indicados.",
+    precio: 22646.11,
+    cantidad: 10,
+    categoria: "Filtros",
+    image: "../assets/kitwega_nissan_march.jpg"
+  },
+  {
+    id: 80,
+    nombre: "KIT WEGA PEUGEOT 307, CITROEN C4 1.6 16V 110CV",
+    nombreOficial: "KIT WEGA V274",
+    descripcion: "Kit de filtros WEGA para Peugeot 307, Citroen C4 1.6 16V 110CV, incluye todos los filtros indicados.",
+    precio: 26855.26,
+    cantidad: 10,
+    categoria: "Filtros",
+    image: "../assets/kitwega_peugeot307_c4.jpg"
+  },
+  {
+    id: 81,
+    nombre: "KIT WEGA PEUGEOT 207 1.4 (4 F)",
+    nombreOficial: "KIT WEGA V248",
+    descripcion: "Kit de filtros WEGA para Peugeot 207 1.4, incluye todos los filtros indicados.",
+    precio: 31176.86,
+    cantidad: 10,
+    categoria: "Filtros",
+    image: "../assets/kitwega_peugeot207_14.jpg"
+  },
+  {
+    id: 82,
+    nombre: "KIT WEGA PEUGEOT 207 1.6 (4 F)",
+    nombreOficial: "KIT WEGA V247",
+    descripcion: "Kit de filtros WEGA para Peugeot 207 1.6, incluye todos los filtros indicados.",
+    precio: 20914.92,
+    cantidad: 10,
+    categoria: "Filtros",
+    image: "../assets/kitwega_peugeot207_16.jpg"
+  },
+  {
+    id: 83,
+    nombre: "KIT WEGA PEUGEOT 208 / 2008 1.6 16V (4 F)",
+    nombreOficial: "KIT WEGA V250",
+    descripcion: "Kit de filtros WEGA para Peugeot 208 / 2008 1.6 16V, incluye todos los filtros indicados.",
+    precio: 28833.41,
+    cantidad: 10,
+    categoria: "Filtros",
+    image: "../assets/kitwega_peugeot208_2008.jpg"
+  },
+  {
+    id: 84,
+    nombre: "KIT WEGA PEUGEOT 208 2008 1.6 GTI (3 F S/F COMB)",
+    nombreOficial: "KIT WEGA V249",
+    descripcion: "Kit de filtros WEGA para Peugeot 208 2008 1.6 GTI, incluye todos los filtros indicados.",
+    precio: 22492.11,
+    cantidad: 10,
+    categoria: "Filtros",
+    image: "../assets/kitwega_peugeot208_gti.jpg"
+  },
+  {
+    id: 85,
+    nombre: "KIT WEGA PEUGEOT 308, 208, 408, PART, CITROEN 1.6HDI",
+    nombreOficial: "KIT WEGA V240",
+    descripcion: "Kit de filtros WEGA para Peugeot 308, 208, 408, Part, Citroen 1.6HDI, incluye todos los filtros indicados.",
+    precio: 45624.05,
+    cantidad: 10,
+    categoria: "Filtros",
+    image: "../assets/kitwega_peugeot308_citroen.jpg"
+  },
+  {
+    id: 86,
+    nombre: "KIT WEGA RENAULT ALASKAN (4F)",
+    nombreOficial: "KIT WEGA V419",
+    descripcion: "Kit de filtros WEGA para Renault Alaskan, incluye todos los filtros indicados.",
+    precio: 96694.56,
+    cantidad: 10,
+    categoria: "Filtros",
+    image: "../assets/kitwega_renault_alaskan.jpg"
+  },
+
+  {
+    id: 87,
+    nombre: "KIT WEGA RENAULT CLIO II 1.2 (4 F)",
+    nombreOficial: "KIT WEGA V258",
+    descripcion: "Kit de filtros WEGA para Renault Clio II 1.2, incluye todos los filtros indicados.",
+    precio: 24290.67,
+    cantidad: 10,
+    categoria: "Filtros",
+    image: "../assets/kitwega_renault_clio2.jpg"
+  },
+  {
+    id: 88,
+    nombre: "KIT WEGA RENAULT DUSTER / SANDERO 1.6 16V (4 F)",
+    nombreOficial: "KIT WEGA V257",
+    descripcion: "Kit de filtros WEGA para Renault Duster / Sandero 1.6 16V, incluye todos los filtros indicados.",
+    precio: 26084.35,
+    cantidad: 10,
+    categoria: "Filtros",
+    image: "../assets/kitwega_renault_duster.jpg"
+  },
+  {
+    id: 89,
+    nombre: "KIT WEGA RENAULT DUSTER II, OROCH, CAPTUR (1 F. COM)",
+    nombreOficial: "KIT WEGA V275",
+    descripcion: "Kit de filtros WEGA para Renault Duster II, Oroch, Captur, incluye todos los filtros indicados.",
+    precio: 24208.44,
+    cantidad: 10,
+    categoria: "Filtros",
+    image: "../assets/kitwega_renault_dusterII.jpg"
+  },
+  {
+    id: 90,
+    nombre: "KIT WEGA RENAULT KANGOO 1.6 (4 F)",
+    nombreOficial: "KIT WEGA V259",
+    descripcion: "Kit de filtros WEGA para Renault Kangoo 1.6, incluye todos los filtros indicados.",
+    precio: 24250.26,
+    cantidad: 10,
+    categoria: "Filtros",
+    image: "../assets/kitwega_renault_kangoo.jpg"
+  },
+  {
+    id: 91,
+    nombre: "KIT WEGA RENAULT KANGOO III 1.5 DCI (4 F)",
+    nombreOficial: "KIT WEGA V296",
+    descripcion: "Kit de filtros WEGA para Renault Kangoo III 1.5 DCI, incluye todos los filtros indicados.",
+    precio: 42550.19,
+    cantidad: 10,
+    categoria: "Filtros",
+    image: "../assets/kitwega_renault_kangooIII.jpg"
+  },
+  {
+    id: 92,
+    nombre: "KIT WEGA RENAULT KANGOO III LOGAN M-NISSAN (3 F)",
+    nombreOficial: "KIT WEGA 413",
+    descripcion: "Kit de filtros WEGA para Renault Kangoo III Logan M-Nissan, incluye todos los filtros indicados.",
+    precio: 32935.02,
+    cantidad: 10,
+    categoria: "Filtros",
+    image: "../assets/kitwega_renault_kangooIII_logan.jpg"
+  },
+  {
+    id: 93,
+    nombre: "KIT WEGA RENAULT KWID 1.0 (4 F)",
+    nombreOficial: "KIT WEGA V260",
+    descripcion: "Kit de filtros WEGA para Renault Kwid 1.0, incluye todos los filtros indicados.",
+    precio: 25375.63,
+    cantidad: 10,
+    categoria: "Filtros",
+    image: "../assets/kitwega_renault_kwid.jpg"
+  },
+  {
+    id: 94,
+    nombre: "KIT WEGA RENAULT MASTER 2.3 (4F)",
+    nombreOficial: "KIT WEGA V307",
+    descripcion: "Kit de filtros WEGA para Renault Master 2.3, incluye todos los filtros indicados.",
+    precio: 76282.72,
+    cantidad: 10,
+    categoria: "Filtros",
+    image: "../assets/kitwega_renault_master.jpg"
+  },
+  {
+    id: 95,
+    nombre: "KIT WEGA TOYOTA COROLLA 1.8 VVT 16V (3 F)",
+    nombreOficial: "KIT WEGA V263",
+    descripcion: "Kit de filtros WEGA para Toyota Corolla 1.8 VVT 16V, incluye todos los filtros indicados.",
+    precio: 21107.9,
+    cantidad: 10,
+    categoria: "Filtros",
+    image: "../assets/kitwega_toyota_corolla18.jpg"
+  },
+  {
+    id: 96,
+    nombre: "KIT WEGA TOYOTA COROLLA CROSS 2.0 2020 (3 F)",
+    nombreOficial: "KIT WEGA WKL1005",
+    descripcion: "Kit de filtros WEGA para Toyota Corolla Cross 2.0 2020, incluye todos los filtros indicados.",
+    precio: 25191.05,
+    cantidad: 10,
+    categoria: "Filtros",
+    image: "../assets/kitwega_toyota_corolla_cross.jpg"
+  },
+  {
+    id: 97,
+    nombre: "KIT WEGA TOYOTA ETIOS 1.5 16V 103 CV 2016> (3 F)",
+    nombreOficial: "KIT WEGA V262",
+    descripcion: "Kit de filtros WEGA para Toyota Etios 1.5 16V 103 CV 2016>, incluye todos los filtros indicados.",
+    precio: 22927.7,
+    cantidad: 10,
+    categoria: "Filtros",
+    image: "../assets/kitwega_toyota_etios_103.jpg"
+  },
+  {
+    id: 98,
+    nombre: "KIT WEGA TOYOTA ETIOS 1.5 16V 84 CV 2013-2015 (3 F)",
+    nombreOficial: "KIT WEGA V261",
+    descripcion: "Kit de filtros WEGA para Toyota Etios 1.5 16V 84 CV 2013-2015, incluye todos los filtros indicados.",
+    precio: 20561.21,
+    cantidad: 10,
+    categoria: "Filtros",
+    image: "../assets/kitwega_toyota_etios_84.jpg"
+  },
+  {
+    id: 99,
+    nombre: "KIT WEGA TOYOTA HILUX 2.4-2.8 L. NUEVA (4 F)",
+    nombreOficial: "KIT WEGA V214",
+    descripcion: "Kit de filtros WEGA para Toyota Hilux 2.4-2.8 L. Nueva, incluye todos los filtros indicados.",
+    precio: 40919.79,
+    cantidad: 10,
+    categoria: "Filtros",
+    image: "../assets/kitwega_toyota_hilux_24_28.jpg"
+  },
+  {
+    id: 100,
+    nombre: "KIT WEGA TOYOTA HILUX 2.5-3.0 (4 F)",
+    nombreOficial: "KIT WEGA V213",
+    descripcion: "Kit de filtros WEGA para Toyota Hilux 2.5-3.0, incluye todos los filtros indicados.",
+    precio: 39864.83,
+    cantidad: 10,
+    categoria: "Filtros",
+    image: "../assets/kitwega_toyota_hilux_25_30.jpg"
+  },
+  {
+    id: 101,
+    nombre: "KIT WEGA VW AMAROK 2.0 TD 163 CV (4 F)",
+    nombreOficial: "KIT WEGA V215",
+    descripcion: "Kit de filtros WEGA para VW Amarok 2.0 TD 163 CV, incluye todos los filtros indicados.",
+    precio: 59300.12,
+    cantidad: 10,
+    categoria: "Filtros",
+    image: "../assets/kitwega_vw_amarok_163.jpg"
+  },
+  {
+    id: 102,
+    nombre: "KIT WEGA VW AMAROK 2.0 TD 180 CV L. NUEVA (4 F)",
+    nombreOficial: "KIT WEGA V216",
+    descripcion: "Kit de filtros WEGA para VW Amarok 2.0 TD 180 CV L. Nueva, incluye todos los filtros indicados.",
+    precio: 87828.75,
+    cantidad: 10,
+    categoria: "Filtros",
+    image: "../assets/kitwega_vw_amarok_180.jpg"
+  },
+  {
+    id: 103,
+    nombre: "KIT WEGA VW AMAROK V6 (4F)",
+    nombreOficial: "KIT WEGA V282",
+    descripcion: "Kit de filtros WEGA para VW Amarok V6, incluye todos los filtros indicados.",
+    precio: 96354.11,
+    cantidad: 10,
+    categoria: "Filtros",
+    image: "../assets/kitwega_vw_amarok_v6.jpg"
+  },
+  {
+    id: 104,
+    nombre: "KIT WEGA VW GOL POWER 1.4, 1.6 (4 F)",
+    nombreOficial: "KIT WEGA V245",
+    descripcion: "Kit de filtros WEGA para VW Gol Power 1.4, 1.6, incluye todos los filtros indicados.",
+    precio: 23964.33,
+    cantidad: 10,
+    categoria: "Filtros",
+    image: "../assets/kitwega_vw_gol_power.jpg"
+  },
+  {
+    id: 105,
+    nombre: "KIT WEGA VW GOL TREND, FOX, SURAN, SAVEIRO 1.6",
+    nombreOficial: "KIT WEGA V237",
+    descripcion: "Kit de filtros WEGA para VW Gol Trend, Fox, Suran, Saveiro 1.6, incluye todos los filtros indicados.",
+    precio: 24229.15,
+    cantidad: 10,
+    categoria: "Filtros",
+    image: "../assets/kitwega_vw_gol_trend.jpg"
+  },
+  {
+    id: 106,
+    nombre: "KIT WEGA VW UP 1.0 12V (4 F)",
+    nombreOficial: "KIT WEGA V246",
+    descripcion: "Kit de filtros WEGA para VW Up 1.0 12V, incluye todos los filtros indicados.",
+    precio: 30960.18,
+    cantidad: 10,
+    categoria: "Filtros",
+    image: "../assets/kitwega_vw_up.jpg"
+  }
+
 ];
+
+
 
 export default productos;
