@@ -28,6 +28,7 @@ const imagenesIndex = [
   { id: 27, nombre: "", image: "./assets/27.jpg" },
   { id: 28, nombre: "", image: "./assets/28.jpg" },
   { id: 29, nombre: "", image: "./assets/29.jpg" },
+  { id: 30, nombre: "", image: "./assets/30.jpg" },
 ];
 
 
