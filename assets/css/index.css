@@ -20,7 +20,7 @@
 .tarjeta {
     width: 100%; /* ocupa el ancho asignado por el grid */
     max-width: 350px; /* límite máximo */
-    background-color: rgb(119, 132, 206);
+    background-color: grey;
     padding: 20px;
     border-radius: 20px; /* bordes más suaves */
     text-align: center;
@@ -121,7 +121,7 @@ section {
 .tarjeta {
   width: 250px;
   height: auto; /* importante para adaptarse */
-  background-color: #d3ccf8;
+  background-color: white;
   border-radius: 20px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.2);
   padding: 15px;
