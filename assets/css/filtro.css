@@ -1,0 +1,36 @@
+.filtro-wrap {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+#filtro-categoria {
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 2px solid #0077cc;
+    background: #f5faff;
+    color: #333;
+    cursor: pointer;
+
+    /* Sombra suave */
+    box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+
+    /* Quita la flecha fea del navegador */
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+
+    /* Espacio para la flecha personalizada */
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg width='16' height='16' fill='%230077cc' viewBox='0 0 16 16'%3E%3Cpath d='M3 6l5 5 5-5'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    background-size: 16px;
+}
+
+/* Hace que el select no crezca demasiado */
+#filtro-categoria:focus {
+    outline: none;
+    border-color: #005fa3;
+    box-shadow: 0 0 6px rgba(0, 119, 204, 0.6);
+}

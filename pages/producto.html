@@ -8,7 +8,10 @@
     <link rel="stylesheet" href="../assets/css/styles.css">
     <link rel="stylesheet" href="../assets/css/tarjetas.css">
     <link rel="stylesheet" href="../assets/css/carrito.css">
-    
+    <link rel="stylesheet" href="../assets/css/filtro.css">
+    <title>Productos por Categoría</title>
+
+
 </head>
 
 <body>
@@ -26,15 +29,31 @@
                     <li><a href="./contacto.html">Contacto</a></li>
                 </ul>
                 <span class="spacer"></span>
-               
+
+
             </nav>
         </header>
 
         <!-- MAIN -->
         <main class="main default-background-color">
+
+            <div class="filtro-wrap">
+                <select id="filtro-categoria">
+                    <option value="todos">Todas las categorías</option>
+                    <option value="Lubricantes">Lubricantes</option>
+                    <option value="Refrigerantes">Refrigerantes</option>
+                    <option value="Filtros">Filtros</option>
+                </select>
+            </div>
+
+
             <section id="productos" class="productos_">
-                <!-- Las tarjetas se generan automáticamente desde carritoProductos.js -->
             </section>
+
+
+
+
+
         </main>
 
         <!-- FOOTER -->
@@ -43,11 +62,18 @@
         </footer>
     </div>
 
+    <!-- En tu HTML -->
+    <div id="productos-container"></div>
+
+
+    <script src="main.js"></script>
     <!-- Scripts al final del body -->
     <script type="module" src="./productos.js"></script>
     <script type="module" src="./tarjetas.js"></script>
-    
-   
+    <script type="module" src="lubricantes.js"></script>
+    <script type="module" src="refrigerantes.js"></script>
+
+
 
 </body>
 

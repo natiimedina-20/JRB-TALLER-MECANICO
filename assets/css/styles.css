@@ -1,3 +1,10 @@
+@font-face {
+    font-family: "elms_sans";
+    src: url("../fonts/ElmsSans-VariableFont_wght.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
     margin: 0;
     box-sizing: border-box;
@@ -21,6 +28,9 @@
     background-color: rgb(8, 8, 63);
     justify-content: center;
     align-items: center;
+    font-family: "elms_sans";
+    
+
 }
 
 /* quitar bullets / márgenes del UL dentro del nav */
@@ -98,13 +108,22 @@ p {
 #hero {
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: black background-image ('../marcas.jpg');
-    background-image: url('../marcas.jpg');
+    color: rgb(6, 6, 92)
+    ;
     /* sube un nivel desde css/ */
     background-size: auto;
     background-position: center;
     font-size: 30px;
 
+}
+
+#hero h1{
+    color: rgb(7, 7, 56);
+}
+
+#hero h2{
+    color: rgb(7, 7, 56);
+    font-weight: bold;
 }
 
 
@@ -162,19 +181,19 @@ p {
     justify-items: center;
     text-align: center;
     justify-content: center;
+    color: rgb(7, 7, 56)
 }
 
-.infobienvenida {
+#info-bienvenida {
     display: flex;
     justify-content: center;
     /* Centra horizontalmente */
     align-items: center;
+
     /* Centra verticalmente */
-    min-height: 100vh;
-    /* Ocupa toda la altura de la ventana */
-    padding: 20px;
     text-align: justify;
     /* Justifica el texto dentro del bloque */
+    color: rgb(7, 7, 56);
 }
 
 

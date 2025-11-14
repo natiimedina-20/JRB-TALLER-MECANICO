@@ -5,7 +5,7 @@ const productos = [
     nombre: "Aceite de Motor Sintético 7501 Classic 10W40",
     nombreOficial: "7501 Classic Sinthetic Motor Oil 10W40",
     descripcion: "Aceite de motor sintético para todo tipo de vehículos.",
-    precio: 9500,
+    precio: 11808.62,
     cantidad: 50,
     categoria: "Lubricantes",
     image: "../assets/7501_classic_10w40.jpg"
@@ -15,17 +15,17 @@ const productos = [
     nombre: "Aceite de Transmisión Extra 8103 SAE 75W90",
     nombreOficial: "8103 Extra Getriebeöl SAE 75W90",
     descripcion: "Aceite de transmisión para engranajes y cajas de cambios.",
-    precio: 8700,
+    precio: 23995.79,
     cantidad: 40,
     categoria: "Lubricantes",
     image: "../assets/8103_extra_75w90.jpg"
   },
   {
     id: 3,
-    nombre: "Aceite de Motor 7003 Elite SAE 5W40 de Mannol",
-    nombreOficial: "7003 Elite SAE 5W40 de Mannol",
+    nombre: "Aceite de Motor 7903 Elite SAE 5W40 de Mannol",
+    nombreOficial: "7903 Elite SAE 5W40 de Mannol",
     descripcion: "Aceite de motor sintético de alto rendimiento.",
-    precio: 9800,
+    precio: 79848.90,
     cantidad: 45,
     categoria: "Lubricantes",
     image: "../assets/7003_elite_5w40.jpg"
@@ -35,7 +35,7 @@ const productos = [
     nombre: "Aceite de Motor Energy 5W30 de Mannol",
     nombreOficial: "Energy 5W30 de Mannol",
     descripcion: "Aceite de motor para protección y eficiencia de combustible.",
-    precio: 9200,
+    precio: 76984.20,
     cantidad: 50,
     categoria: "Lubricantes",
     image: "../assets/energy_5w30.jpg"
@@ -45,7 +45,7 @@ const productos = [
     nombre: "Aceite Wolf Official Tech 5W30 C3",
     nombreOficial: "Wolf Official Tech 5W30 C3",
     descripcion: "Aceite sintético para motores modernos con filtro de partículas.",
-    precio: 10500,
+    precio: 0,
     cantidad: 35,
     categoria: "Lubricantes",
     image: "../assets/wolf_official_5w30.jpg"
@@ -55,7 +55,7 @@ const productos = [
     nombre: "Aceite 7709 O.E.M. para Toyota y Lexus SAE 5W30",
     nombreOficial: "7709 O.E.M. for Toyota Lexus SAE 5W30",
     descripcion: "Aceite de motor recomendado para vehículos Toyota y Lexus.",
-    precio: 10700,
+    precio: 52930.46,
     cantidad: 30,
     categoria: "Lubricantes",
     image: "../assets/7709_toyota_5w30.jpg"
@@ -65,7 +65,7 @@ const productos = [
     nombre: "Aceite Wolf GuardTech 10W40",
     nombreOficial: "Wolf GuardTech 10W40",
     descripcion: "Aceite sintético para motor que ofrece protección extrema.",
-    precio: 9400,
+    precio: 0,
     cantidad: 40,
     categoria: "Lubricantes",
     image: "../assets/wolf_guardtech_10w40.jpg"
@@ -75,7 +75,7 @@ const productos = [
     nombre: "Aceite Wolf Ecotech 0W20",
     nombreOficial: "Wolf Ecotech 0W20",
     descripcion: "Aceite de baja viscosidad para motores modernos de alto rendimiento.",
-    precio: 11500,
+    precio: 0,
     cantidad: 25,
     categoria: "Lubricantes",
     image: "../assets/wolf_ecotech_0w20.jpg"
@@ -85,7 +85,7 @@ const productos = [
     nombre: "Aceite Semisintético Gulf Tex C 10W40",
     nombreOficial: "Gulf Tex C Semi Synthetic Engine Oil 10W40",
     descripcion: "Aceite de motor semisintético que protege y mejora el rendimiento.",
-    precio: 9600,
+    precio: 0,
     cantidad: 50,
     categoria: "Lubricantes",
     image: "../assets/gulf_texc_10w40.jpg"
@@ -95,7 +95,7 @@ const productos = [
     nombre: "Aceite Energy Ultra JP 5W20 de Mannol",
     nombreOficial: "Energy Ultra JP 5W20 de Mannol",
     descripcion: "Aceite de motor de alto rendimiento para vehículos modernos.",
-    precio: 9700,
+    precio: 48316.12,
     cantidad: 40,
     categoria: "Lubricantes",
     image: "../assets/energy_ultra_jp_5w20.jpg"
@@ -1076,10 +1076,213 @@ const productos = [
     cantidad: 10,
     categoria: "Filtros",
     image: "../assets/kitwega_vw_up.jpg"
-  }
+  },
+
+  {
+  id: 107,
+  nombre: "Motor Starter 9669 Mannol",
+  nombreOficial: "Motor Starter 9669 Mannol",
+  descripcion: "Arrancador de motor en aerosol Mannol 9669, facilita el encendido en frío.",
+  precio: 0,
+  cantidad: 10,
+  categoria: "Lubricantes y Otros",
+  image: "../assets/motor_starter_9669_mannol.jpg"
+},
+{
+  id: 108,
+  nombre: "Chain Lube 7901 Mannol",
+  nombreOficial: "Chain Lube 7901 Mannol",
+  descripcion: "Lubricante para cadenas Mannol 7901, ideal para motos y bicicletas.",
+  precio: 0,
+  cantidad: 10,
+  categoria: "Lubricantes y Otros",
+  image: "../assets/chain_lube_7901_mannol.jpg"
+},
+{
+  id: 109,
+  nombre: "Diesel Cleaner Mannol 9980",
+  nombreOficial: "Diesel Cleaner Mannol 9980",
+  descripcion: "Aditivo limpiador de sistema de inyección diésel Mannol 9980.",
+  precio: 0,
+  cantidad: 10,
+  categoria: "Aditivos",
+  image: "../assets/diesel_cleaner_mannol_9980.jpg"
+},
+{
+  id: 110,
+  nombre: "Super Benzin Octane Plus 9954",
+  nombreOficial: "Super Benzin Octane Plus Mannol 9954",
+  descripcion: "Aditivo potenciador de octanaje para motores nafteros Mannol 9954.",
+  precio: 0,
+  cantidad: 10,
+  categoria: "Aditivos",
+  image: "../assets/super_benzin_octane_plus_9954.jpg"
+},
+{
+  id: 111,
+  nombre: "Silicona Jarama Sunshine",
+  nombreOficial: "Silicona Jarama Sunshine",
+  descripcion: "Silicona perfumada Jarama aroma Sunshine, ideal para interiores de autos.",
+  precio: 0,
+  cantidad: 10,
+  categoria: "Limpieza y Detalle",
+  image: "../assets/silicona_jarama_sunshine.jpg"
+},
+{
+  id: 112,
+  nombre: "Silicona Jarama Vainilla",
+  nombreOficial: "Silicona Jarama Vainilla",
+  descripcion: "Silicona perfumada Jarama aroma Vainilla, brillo y protección interior.",
+  precio: 0,
+  cantidad: 10,
+  categoria: "Limpieza y Detalle",
+  image: "../assets/silicona_jarama_vainilla.jpg"
+},
+{
+  id: 113,
+  nombre: "Silicona Penetril Bosques del Sur",
+  nombreOficial: "Silicona Penetril Bosques del Sur",
+  descripcion: "Silicona aromatizada Penetril Bosques del Sur, limpia y protege superficies.",
+  precio: 0,
+  cantidad: 10,
+  categoria: "Limpieza y Detalle",
+  image: "../assets/silicona_penetril_bosques_del_sur.jpg"
+},
+{
+  id: 114,
+  nombre: "Walker Alcohol Desinfectante",
+  nombreOficial: "Walker Alcohol Desinfectante",
+  descripcion: "Alcohol desinfectante Walker, limpieza y desinfección general.",
+  precio: 0,
+  cantidad: 10,
+  categoria: "Limpieza y Desinfección",
+  image: "../assets/walker_alcohol_desinfectante.jpg"
+},
+{
+  id: 115,
+  nombre: "Drive Limpia Contactos",
+  nombreOficial: "Drive Limpia Contactos",
+  descripcion: "Limpiador de contactos eléctricos Drive, elimina residuos y humedad.",
+  precio: 0,
+  cantidad: 10,
+  categoria: "Limpieza Técnica",
+  image: "../assets/drive_limpia_contactos.jpg"
+},
+{
+  id: 116,
+  nombre: "Walker W400 Lubricante",
+  nombreOficial: "Walker W400 Lubricante Multiuso",
+  descripcion: "Lubricante multiuso Walker W400, protege contra la corrosión.",
+  precio: 0,
+  cantidad: 10,
+  categoria: "Lubricantes y Otros",
+  image: "../assets/walker_w400_lubricante.jpg"
+},
+{
+  id: 117,
+  nombre: "Limpia Contactos Locx",
+  nombreOficial: "Limpia Contactos Locx",
+  descripcion: "Aerosol limpiador de contactos eléctricos marca Locx.",
+  precio: 0,
+  cantidad: 10,
+  categoria: "Limpieza Técnica",
+  image: "../assets/limpia_contactos_locx.jpg"
+},
+{
+  id: 118,
+  nombre: "Limpia Caudalímetros Locx",
+  nombreOficial: "Limpia Caudalímetros Locx",
+  descripcion: "Limpiador especial para sensores MAF (caudalímetros) marca Locx.",
+  precio: 0,
+  cantidad: 10,
+  categoria: "Limpieza Técnica",
+  image: "../assets/limpia_caudalimetros_locx.jpg"
+},
+{
+  id: 119,
+  nombre: "Total Quartz 9000 5W40",
+  nombreOficial: "Total Quartz 9000 5W40",
+  descripcion: "Aceite sintético Total Quartz 9000 5W40 para motores nafteros y diésel.",
+  precio: 0,
+  cantidad: 10,
+  categoria: "Lubricantes",
+  image: "../assets/total_quartz_9000_5w40.jpg"
+},
+{
+  id: 120,
+  nombre: "Total Engine Quartz 5W30",
+  nombreOficial: "Total Engine Quartz 5W30",
+  descripcion: "Aceite sintético Total Engine Quartz 5W30, alto rendimiento y protección.",
+  precio: 0,
+  cantidad: 10,
+  categoria: "Lubricantes",
+  image: "../assets/total_engine_quartz_5w30.jpg"
+},
+{
+  id: 121,
+  nombre: "Total Quartz 7000 10W40",
+  nombreOficial: "Total Quartz 7000 10W40",
+  descripcion: "Aceite semisintético Total Quartz 7000 10W40, rendimiento y durabilidad.",
+  precio: 0,
+  cantidad: 10,
+  categoria: "Lubricantes",
+  image: "../assets/total_quartz_7000_10w40.jpg"
+},
+{
+  id: 122,
+  nombre: "Elf Evolution 5W30 4L",
+  nombreOficial: "Elf Evolution 5W30 4L",
+  descripcion: "Aceite sintético Elf Evolution 5W30, presentación 4 litros.",
+  precio: 0,
+  cantidad: 10,
+  categoria: "Lubricantes",
+  image: "../assets/elf_evolution_5w30_4l.jpg"
+},
+{
+  id: 123,
+  nombre: "Valvoline Full Synthetic 5W30 4L",
+  nombreOficial: "Valvoline Full Synthetic 5W30 4L",
+  descripcion: "Aceite sintético Valvoline 5W30, máxima protección y limpieza del motor.",
+  precio: 0,
+  cantidad: 10,
+  categoria: "Lubricantes",
+  image: "../assets/valvoline_full_synthetic_5w30_4l.jpg"
+},
+{
+  id: 124,
+  nombre: "Motul 8100 X-Clean EFE 5W30 5L",
+  nombreOficial: "Motul 8100 X-Clean EFE 5W30 5L",
+  descripcion: "Aceite sintético Motul 8100 X-Clean EFE 5W30, bidón de 5 litros.",
+  precio: 0,
+  cantidad: 10,
+  categoria: "Lubricantes",
+  image: "../assets/motul_8100_xclean_efe_5w30_5l.jpg"
+},
+{
+  id: 125,
+  nombre: "Motul 4100 Protect 10W40",
+  nombreOficial: "Motul 4100 Protect 10W40",
+  descripcion: "Aceite semisintético Motul 4100 Protect 10W40, excelente protección y limpieza.",
+  precio: 0,
+  cantidad: 10,
+  categoria: "Lubricantes",
+  image: "../assets/motul_4100_protect_10w40.jpg"
+},
+{
+  id: 126,
+  nombre: "Racing + Ester 10W60",
+  nombreOficial: "Racing + Ester 10W60",
+  descripcion: "Aceite sintético Racing + Ester 10W60, formulado para alto rendimiento.",
+  precio: 0,
+  cantidad: 10,
+  categoria: "Lubricantes",
+  image: "../assets/racing_ester_10w60.jpg"
+}
 
 ];
 
 
 
 export default productos;
+
+

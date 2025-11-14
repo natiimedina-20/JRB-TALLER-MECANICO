@@ -1,3 +1,10 @@
+@font-face {
+    font-family: "elms_sans";
+    src: url("../fonts/ElmsSans-VariableFont_wght.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
 .nav ul {
     list-style: none;         /* quita los puntos de lista */
     padding: 0;
@@ -7,7 +14,7 @@
     justify-content: center;  /* centra los botones horizontalmente */
     align-items: center;      /* los alinea verticalmente */
     gap: 30px;   
-    font-family: 'Fjalla One', sans-serif;             /* espacio entre los botones */
+    font-family: "elms_sans"             /* espacio entre los botones */
 }
 
 .nav ul li a {
@@ -16,6 +23,7 @@
     font-size: 20px;          /* tamaño de fuente */
     font-weight: bold;
     transition: color 0.3s ease;
+    font-family: "elms_sans" 
 }
 
 .nav ul li a:hover {
@@ -26,6 +34,7 @@
     padding: 20px;
     font-family: Arial, sans-serif;
     text-align: center;
+    font-family: "elms_sans" 
 }
 
 #telefonos p {
@@ -39,13 +48,7 @@
     text-align: center;
     font-size: 30px;
     color: #666;
+    font-family: "elms_sans" 
     
 }
 
-
-@font-face {
-    font-family: 'Fjalla One';
-    src: url('../fonts/FjallaOne-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
