@@ -391,7 +391,7 @@ const productos = [
     nombre: "Silicona Multiuso Cherry",
     nombreOficial: "Jarama Silicona Multiuso Cherry",
     descripcion: "Silicona aromática multiuso con fragancia cherry.",
-    precio: 0,
+    precio: 6000,
     cantidad: 25,
     categoria: "Limpieza y Detalle",
     image: "../assets/jarama_cherry.jpg"
@@ -401,7 +401,7 @@ const productos = [
     nombre: "Silicona Multiuso Sunshine",
     nombreOficial: "Jarama Silicona Multiuso Sunshine",
     descripcion: "Silicona multiuso con aroma Sunshine, ideal para interiores.",
-    precio: 0,
+    precio: 6000,
     cantidad: 25,
     categoria: "Limpieza y Detalle",
     image: "../assets/jarama_sunshine.jpg"
@@ -1131,7 +1131,7 @@ const productos = [
     nombre: "Silicona Jarama Sunshine",
     nombreOficial: "Silicona Jarama Sunshine",
     descripcion: "Silicona perfumada Jarama aroma Sunshine, ideal para interiores de autos.",
-    precio: 0,
+    precio: 6000,
     cantidad: 10,
     categoria: "Limpieza y Detalle",
     image: "../assets/silicona_jarama_sunshine.jpg"
@@ -1141,7 +1141,7 @@ const productos = [
     nombre: "Silicona Jarama Vainilla",
     nombreOficial: "Silicona Jarama Vainilla",
     descripcion: "Silicona perfumada Jarama aroma Vainilla, brillo y protección interior.",
-    precio: 0,
+    precio: 6000,
     cantidad: 10,
     categoria: "Limpieza y Detalle",
     image: "../assets/silicona_jarama_vainilla.jpg"
