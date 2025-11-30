@@ -9,6 +9,7 @@ const productos = [
     cantidad: 50,
     categoria: "Lubricantes",
     image: "../assets/7501_classic_10w40.jpg"
+    
   },
   {
     id: 2,
@@ -45,7 +46,7 @@ const productos = [
     nombre: "Aceite Wolf Official Tech 5W30 C3",
     nombreOficial: "Wolf Official Tech 5W30 C3",
     descripcion: "Aceite sintético para motores modernos con filtro de partículas.",
-    precio: 0,
+    precio: 76984.20,
     cantidad: 35,
     categoria: "Lubricantes",
     image: "../assets/wolf_official_5w30.jpg"
@@ -65,7 +66,7 @@ const productos = [
     nombre: "Aceite Wolf GuardTech 10W40",
     nombreOficial: "Wolf GuardTech 10W40",
     descripcion: "Aceite sintético para motor que ofrece protección extrema.",
-    precio: 0,
+    precio: 49587,
     cantidad: 40,
     categoria: "Lubricantes",
     image: "../assets/wolf_guardtech_10w40.jpg"
@@ -1151,7 +1152,7 @@ const productos = [
     nombre: "Silicona Penetril Bosques del Sur",
     nombreOficial: "Silicona Penetril Bosques del Sur",
     descripcion: "Silicona aromatizada Penetril Bosques del Sur, limpia y protege superficies.",
-    precio: 0,
+    precio: 7800,
     cantidad: 10,
     categoria: "Limpieza y Detalle",
     image: "../assets/silicona_penetril_bosques_del_sur.jpg"

@@ -1,0 +1,13 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    background: #00104d; /* ejemplo */
+    padding: 10px;
+}
+
+.btn-carrito {
+    margin-left: auto;  /* 🔥 Esto lo manda totalmente a la derecha */
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+}

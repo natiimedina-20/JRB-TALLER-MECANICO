@@ -33,3 +33,5 @@ const imagenesIndex = [
 
 
 export default imagenesIndex;
+
+

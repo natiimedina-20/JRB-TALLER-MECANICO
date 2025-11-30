@@ -20,7 +20,10 @@ function renderProductos(lista) {
            class="tarjeta-imagen">
       <p class="tarjeta-descripcion">${p.descripcion}</p>
       <div class="tarjeta-footer">
-        <span class="tarjeta-precio"><strong>Precio:</strong> $${p.precio}</span>
+        <button class="btn-agregar" data-id="${p.id}">
+        Agregar ($${p.precio})
+        </button>
+
         <span class="tarjeta-stock"><strong>Stock:</strong> ${p.cantidad}</span>
         <span class="tarjeta-id"><strong>ID:</strong> ${p.id}</span>
       </div>
@@ -74,3 +77,10 @@ document.addEventListener("DOMContentLoaded", () => {
   renderProductos(productos);  // renderiza todas al inicio
   aplicarFiltro();       // configura el filtro
 });
+
+
+const boton = card.querySelector(".btn-agregar");
+boton.addEventListener("click", () => agregarAlCarrito(p.id));
+function agregarAlCarrito(id) {
+  console.log(`Producto con ID ${id} agregado al carrito.`);
+}

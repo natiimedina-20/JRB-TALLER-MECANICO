@@ -1,25 +1,35 @@
-import productos from "./main.js";
+const contenedor = document.getElementById("contenedor-productos");
+const modal = document.getElementById("modal");
+const modalImg = document.getElementById("modal-img");
+const modalTitulo = document.getElementById("modal-titulo");
+const cerrar = document.getElementById("cerrar");
 
-document.addEventListener("DOMContentLoaded", () => {
-  const params = new URLSearchParams(window.location.search);
-  const id = parseInt(params.get("id"));
-  const producto = productos.find((p) => p.id === id);
-  const cont = document.getElementById("detalle-producto");
+productos.forEach(prod => {
+  const card = document.createElement("div");
+  card.classList.add("producto-card");
 
-  if (!producto) {
-    cont.innerHTML = "<p>Producto no encontrado.</p>";
-    return;
-  }
-
-  cont.innerHTML = `
-    <article class="tarjeta">
-      <h2>${producto.nombre}</h2>
-      <img src="${producto.image}" alt="${producto.nombre}" class="tarjeta-imagen">
-      <p>${producto.descripcion}</p>
-      <p><strong>Precio:</strong> $${producto.precio}</p>
-      <p><strong>Stock:</strong> ${producto.cantidad}</p>
-      <p><strong>Categoría:</strong> ${producto.categoria}</p>
-      <button onclick="window.location.href='../index.html'">Volver al inicio</button>
-    </article>
+  card.innerHTML = `
+    <img src="${prod.image}" alt="${prod.nombre}" style="width:120px;">
+    <p>${prod.nombre}</p>
+    <button class="boton-precio">$${prod.precio}</button>
   `;
+
+  // ▶️ Cuando clickeás la tarjeta → abre el modal
+  card.addEventListener("click", () => {
+    modal.style.display = "flex";
+    modalImg.src = prod.image;
+    modalTitulo.textContent = prod.nombre;
+  });
+
+  contenedor.appendChild(card);
+});
+
+// ❌ cerrar modal
+cerrar.addEventListener("click", () => {
+  modal.style.display = "none";
+});
+
+// cerrar clickeando afuera
+modal.addEventListener("click", (e) => {
+  if (e.target === modal) modal.style.display = "none";
 });
